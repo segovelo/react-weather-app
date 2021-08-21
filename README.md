@@ -79,3 +79,4 @@ Dependencies:
 
 c:\>npm install semantic-ui-react semantic-ui-css
 c:\>npm install moment --save
+c:\>npm install axios
