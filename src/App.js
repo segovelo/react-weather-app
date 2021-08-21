@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Weather from './components/weather';
+import { Dimmer, Loader } from 'semantic-ui-react';
 import './App.css';
 
 function App() {
@@ -38,15 +39,16 @@ const getCoordinates = () => {
 
   return (
     <div className="App">
-
       {(typeof data.main != 'undefined') ? (
         <Weather weatherData={data}/>
       ): (
-        <div></div>
+        <div>
+          <Dimmer active>
+            <Loader>Loading..</Loader>
+          </Dimmer>
+        </div>
       )}
-
-      
-    </div>
+   </div>
   );
 }
 
