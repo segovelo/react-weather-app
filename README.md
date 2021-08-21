@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+===============================================================================
+
+This React weather-app is from freeCodeCamp tutorial : https://www.freecodecamp.org/news/learn-react-by-building-a-weather-app/
+
+To fetch weather data We will be using a third party API service: https://openweathermap.org/
+
+Dependencies:
+
+c:\>npm install semantic-ui-react semantic-ui-css
+c:\>npm install moment --save
